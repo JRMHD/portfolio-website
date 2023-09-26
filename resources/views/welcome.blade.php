@@ -153,7 +153,11 @@
     {{-- about me --}}
     <div class=" text-blue-300 text-center py-6">
         <h1 class=" text-2xl uppercase border-l shadow-md">
+<<<<<<< HEAD
             <span class=" bg-blue-600 text-gray-100 p-2 mt-3 rounded-lg">My Projects</span>
+=======
+            <span class=" bg-blue-900 text-gray-50 p-2 mt-3 rounded-lg">My Projects</span>
+>>>>>>> 92d823f9512e06acf3b2229a0426abad57e72ae4
         </h1>
     </div>
     <div class=" mx-10 my-4">

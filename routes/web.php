@@ -25,7 +25,10 @@ Route::get('/contact', [App\Http\Controllers\DashboadController::class, 'contact
 // web.php
 
 Route::post('/contact', [ContactController::class, 'submit'])->name('contact-post');
+<<<<<<< HEAD
 use App\Http\Controllers\WelcomeController;
 
 Route::get('/', [WelcomeController::class, 'index']);
 Route::post('/data', [WelcomeController::class, 'store']);
+=======
+>>>>>>> 92d823f9512e06acf3b2229a0426abad57e72ae4

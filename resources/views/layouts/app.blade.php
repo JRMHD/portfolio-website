@@ -31,7 +31,11 @@
         <nav class="dark:bg-gray-900">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4">
                 <a href="{{ route('dashboard') }}" class="flex items-center">
+<<<<<<< HEAD
                     <img src="images\JRMHD TECH LOGO TRANSPARENT PNG.png" class="h-8 mr-3" alt="Reagan Brand Logo" />
+=======
+                    <img src="images\logo.ico" class="h-8 mr-3" alt="Reagan Brand Logo" />
+>>>>>>> 92d823f9512e06acf3b2229a0426abad57e72ae4
                     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">JRMHD</span>
                 </a>
                 <div class="flex items-center md:order-2">

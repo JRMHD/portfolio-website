@@ -21,7 +21,11 @@
     <section class="bg-gray-900 text-white py-10">
         <div class="container mx-auto px-4">
             <div class="flex flex-col items-center">
+<<<<<<< HEAD
                 <h2 class="text-3xl font-bold mb-4 uppercase text-yellow-500">Contact US</h2>
+=======
+                <h2 class="text-3xl font-bold mb-4 uppercase text-yellow-500">Contact Me</h2>
+>>>>>>> 92d823f9512e06acf3b2229a0426abad57e72ae4
                 <p class="text-lg mb-6">Feel free to get in touch with me for any inquiries or collaborations.</p>
             </div>
 
