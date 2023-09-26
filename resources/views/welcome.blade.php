@@ -152,7 +152,7 @@
     {{-- about me --}}
     <div class=" text-blue-300 text-center py-6">
         <h1 class=" text-2xl uppercase border-l shadow-md">
-            <span class=" bg-blue-900 p-2 mt-3 rounded-lg">My Projects</span>
+            <span class=" bg-blue-900 text-gray-50 p-2 mt-3 rounded-lg">My Projects</span>
         </h1>
     </div>
     <div class=" mx-10 my-4">
@@ -263,7 +263,7 @@
     </div>
     <div>
         <div>
-            <h1 class=" text-center text-2xl text-yellow-600 pb-3 underline">
+            <h1 class=" text-center text-2xl text-yellow-300 pb-3 underline">
                 <span>
                     What does clients say About Us..
                 </span>
