@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Project;
+use App\Models\projects;
 use Illuminate\Http\Request;
 
-class DashboadController extends Controller
+class ProjectsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,20 +14,9 @@ class DashboadController extends Controller
      */
     public function index()
     {
-        $projects=Project::all();
-        // dd($projects);
-        return view('welcome')->with('projects',$projects);
+        //
     }
 
-    public function about ()
-    {
-        return view('about');
-    }
-
-    public function contact ()
-    {
-        return view('contact ');
-    }
     /**
      * Show the form for creating a new resource.
      *
@@ -52,10 +41,10 @@ class DashboadController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\projects  $projects
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(projects $projects)
     {
         //
     }
@@ -63,10 +52,10 @@ class DashboadController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\projects  $projects
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(projects $projects)
     {
         //
     }
@@ -75,10 +64,10 @@ class DashboadController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Models\projects  $projects
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, projects $projects)
     {
         //
     }
@@ -86,10 +75,10 @@ class DashboadController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Models\projects  $projects
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(projects $projects)
     {
         //
     }

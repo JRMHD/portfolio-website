@@ -9,7 +9,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Reagan Portfolio') }}</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
 
@@ -30,8 +30,8 @@
 
         <nav class="dark:bg-gray-900">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4">
-                <a href="#" class="flex items-center">
-                    <img src="images\logo.ico" class="h-8 mr-3" alt="Reagan Brand Logo" />
+                <a href="{{ route('dashboard') }}" class="flex items-center">
+                    <img src="images\JRMHD TECH LOGO TRANSPARENT PNG.png" class="h-8 mr-3" alt="Reagan Brand Logo" />
                     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">JRMHD</span>
                 </a>
                 <div class="flex items-center md:order-2">
